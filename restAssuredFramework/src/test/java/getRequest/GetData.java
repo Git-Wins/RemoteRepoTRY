@@ -15,7 +15,7 @@ public class GetData {
 		Response resp = get("http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22");
 		int code = resp.getStatusCode(); 
 		Assert.assertEquals(code, 200);
-		System.out.println("Everythng works fine");
+		System.out.println("Everythng works fine BUDDIES"); //the new change
 	}
 
 	@Test
